@@ -1,0 +1,9 @@
+2019-09-01T18:49:20+00:00 CRITICAL Uncaught Error: Class 'PharData' not found in /customers/8/3/b/anderssoegaard.dk/httpd.www/personalbrandingwp/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php:272
+Stack trace:
+#0 /customers/8/3/b/anderssoegaard.dk/httpd.www/personalbrandingwp/wp-includes/class-wp-hook.php(286): WC_Geolocation::update_database()
+#1 /customers/8/3/b/anderssoegaard.dk/httpd.www/personalbrandingwp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /customers/8/3/b/anderssoegaard.dk/httpd.www/personalbrandingwp/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#3 /customers/8/3/b/anderssoegaard.dk/httpd.www/personalbrandingwp/wp-cron.php(133): do_action_ref_array('woocommerce_geo...', Array)
+#4 {main}
+  thrown in /customers/8/3/b/anderssoegaard.dk/httpd.www/personalbrandingwp/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php on line 272
+
